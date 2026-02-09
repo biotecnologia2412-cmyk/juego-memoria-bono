@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego de Memoria - Bono 11.000</title>
+    <style>
+        /* Aquí va el diseño de tus cartas */
+        .grid { display: grid; grid-template-columns: repeat(4, 100px); gap: 10px; }
+        .card { width: 100px; height: 100px; background: #2c3e50; color: white; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div id="game-board" class="grid"></div>
+
+    <script>
+        // Lógica para detectar cuando el usuario gana
+        function juegoTerminado(resultado) {
+            // Reemplaza con tu link de Jotform
+            const jotformURL = "https://form.jotform.com/tu_id_formulario";
+            const nombreUsuario = "Jugador1"; // Puedes capturarlo antes
+            
+            // Redirige a Jotform pasando el resultado automáticamente
+            window.location.href = ${jotformURL}?resultado=${resultado}&puntos=100;
+        }
+        
+        // Aquí iría tu lógica de emparejar cartas...
+    </script>
+</body>
+</html>
