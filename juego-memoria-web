@@ -15,7 +15,7 @@
         // Lógica para detectar cuando el usuario gana
         function juegoTerminado(resultado) {
             // Reemplaza con tu link de Jotform
-            const jotformURL = "https://form.jotform.com/tu_id_formulario";
+            const jotformURL = https://form.jotform.com/260385621780055";
             const nombreUsuario = "Jugador1"; // Puedes capturarlo antes
             
             // Redirige a Jotform pasando el resultado automáticamente
